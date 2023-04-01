@@ -1,4 +1,4 @@
-//import libraries
+//import necessary libraries
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
@@ -8,7 +8,7 @@ import TodoList from './TodoList';
 import ContactForm from './ContactForm';
 import './App.css';
 
-//function
+//function to return
 function App() {
   return (
     <Provider store={store}>

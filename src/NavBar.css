@@ -1,0 +1,41 @@
+/* this is the css for navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  height: 60px;
+  padding: 0 20px;
+}
+
+/* css for logo */
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 20px;
+  text-decoration: none; /* hide underline */
+  color: #fff; /* set link color */
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  list-style: none; /* hide bullets */
+  margin: 0; /* remove default margin */
+  padding: 0; /* remove default padding */
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar-link:hover {
+  color: #ccc;
+}

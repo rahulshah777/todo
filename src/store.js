@@ -1,4 +1,4 @@
-//this is store.js
+//import necessary library on store.js
 import { createStore } from 'redux';
 import todosReducer from './todosReducer';
 

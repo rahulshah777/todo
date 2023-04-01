@@ -50,7 +50,7 @@ const todosReducer = (state = initialState, action) => {
         })
       };
 
-      // detele todo
+      // case for detele todo
     case DELETE_TODO:
       return {
         ...state,

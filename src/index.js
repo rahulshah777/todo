@@ -1,4 +1,4 @@
-//import necessary library
+//import necessary libraries
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import store from './store';
 import App from './App';
 
-//render reactdom
+//render react-dom
 ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>

@@ -74,7 +74,7 @@ function TodoList({ todos, visibilityFilter, addTodo, toggleTodo, deleteTodo, se
     </div>
   );
 }
-
+//state
 const mapStateToProps = state => {
   return {
     todos: state.todos,

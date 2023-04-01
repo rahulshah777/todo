@@ -1,4 +1,4 @@
-//necessary action types
+//import necessary action types
 const ADD_TODO = 'ADD_TODO';
 const TOGGLE_TODO = 'TOGGLE_TODO';
 const DELETE_TODO = 'DELETE_TODO';

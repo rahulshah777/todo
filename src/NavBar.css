@@ -28,6 +28,7 @@
   padding: 0; /* remove default padding */
 }
 
+/* css forlink */
 .navbar-link {
   color: #fff;
   text-decoration: none;
@@ -36,6 +37,7 @@
   font-weight: bold;
 }
 
+/* hover */
 .navbar-link:hover {
   color: #ccc;
 }

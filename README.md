@@ -4,7 +4,7 @@ Rahul Shah
 # Overview/description of the project:
 The project is a fully-functional React-based "todo list" web app that utilizes Redux for state management and React Router for navigation. The app allows users to add and manage tasks, mark tasks as completed, and filter tasks based on completion status. The app also includes a contact form that allows users to submit their contact information and comments.
 
-# Details on how to use it or what functionality is offered:
+# Details on how to use it and what functionality is offered:
 To use the app, user can see the both todo_list and contact form at the home page. More so, the users can navigate to the /todos view to see the list of tasks. They can add new tasks using the form provided and mark tasks as completed or remove them from the list. Users can also filter tasks based on completion status. To access the contact form, users can navigate to the /contact view and enter their contact information and comments.
 
 # Technologies Used:

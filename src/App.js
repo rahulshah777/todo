@@ -8,7 +8,7 @@ import TodoList from './TodoList';
 import ContactForm from './ContactForm';
 import './App.css';
 
-//function to return
+//function to return App
 function App() {
   return (
     <Provider store={store}>

@@ -41,6 +41,7 @@ function TodoList({ todos, visibilityFilter, addTodo, toggleTodo, deleteTodo, se
     }
   });
 
+  //return 
   return (
     <div className="todo-container">
       <form onSubmit={handleFormSubmit}>
@@ -82,4 +83,5 @@ const mapStateToProps = state => {
   }
 }
 
+//export
 export default connect(mapStateToProps, { addTodo, toggleTodo, deleteTodo, setVisibilityFilter })(TodoList);

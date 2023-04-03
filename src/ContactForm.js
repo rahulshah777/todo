@@ -1,4 +1,3 @@
-//import react libraries
 import React, { useState } from 'react';
 import './App.css';
 
@@ -22,7 +21,6 @@ function ContactForm() {
     // TODO: Handle form submission (e.g. send data to server)
     console.log(formData);
     setFormData(initialFormData);
-    window.location.reload();
   };
 
   return (
@@ -50,5 +48,5 @@ function ContactForm() {
     </div>
   );
 }
-//export
+
 export default ContactForm;

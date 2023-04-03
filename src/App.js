@@ -21,7 +21,7 @@ function App() {
         {/* routers */}
         <Routes>
     
-        <Route path="/" element={[<TodoList />,<ContactForm/>]} />
+        <Route path="/todo" element={[<TodoList />,<ContactForm/>]} />
           
           <Route path="/todo-list" element={<TodoList />} />
           <Route path="/contact-form" element={<ContactForm />} />

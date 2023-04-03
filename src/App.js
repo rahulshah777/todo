@@ -12,16 +12,12 @@ import './App.css';
 function App() {
   return (
     <Provider store={store}>
-      <div>
         <NavBar />
-        <div>
-
-        </div>
-        
+      <div>
         {/* routers */}
         <Routes>
     
-        <Route path="/todo" element={[<TodoList />,<ContactForm/>]} />
+        <Route path="/" element={[<TodoList />,<ContactForm/>]} />
           
           <Route path="/todo-list" element={<TodoList />} />
           <Route path="/contact-form" element={<ContactForm />} />

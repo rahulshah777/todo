@@ -9,7 +9,7 @@ function NavBar() {
 
   return (
     <nav className="navbar">
-      <Link to="/todo" className="navbar-logo">Todo App</Link>
+      <Link to="/" className="navbar-logo">Todo App</Link>
 
       <ul className="navbar-links">
         <li>
